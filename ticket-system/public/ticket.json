@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Login Authentication Error",
+    "description": "User unable to login with correct credentials. Shows invalid token message.",
+    "customer": "Rasel Miah",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": 2,
+    "title": "Payment Gateway Failure",
+    "description": "Credit card payment fails during checkout process.",
+    "customer": "Sakib Hasan",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 3,
+    "title": "Dashboard Loading Slow",
+    "description": "Admin dashboard takes more than 15 seconds to load.",
+    "customer": "Nusrat Jahan",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": 4,
+    "title": "Email Notification Not Sending",
+    "description": "Password reset email not received by users.",
+    "customer": "Imran Hossain",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": 5,
+    "title": "Profile Image Upload Failed",
+    "description": "Users cannot upload profile pictures in PNG format.",
+    "customer": "Mithila Rahman",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": 6,
+    "title": "Incorrect Invoice Generated",
+    "description": "Invoice shows incorrect tax calculation.",
+    "customer": "Arif Chowdhury",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": 7,
+    "title": "Mobile Responsive Issue",
+    "description": "Website layout breaks on small screen devices.",
+    "customer": "Tanvir Ahmed",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 8,
+    "title": "Search Function Not Working",
+    "description": "Product search returns no results even for valid keywords.",
+    "customer": "Jannat Akter",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 9,
+    "title": "Session Timeout Too Short",
+    "description": "User session expires within 2 minutes of inactivity.",
+    "customer": "Shuvo Das",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-06"
+  },
+  {
+    "id": 10,
+    "title": "File Download Error",
+    "description": "Reports cannot be downloaded in PDF format.",
+    "customer": "Faria Sultana",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-06"
+  },
+  {
+    "id": 11,
+    "title": "Data Sync Issue",
+    "description": "Customer data not syncing between mobile and web app.",
+    "customer": "Mahmudul Karim",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-07"
+  },
+  {
+    "id": 12,
+    "title": "UI Alignment Bug",
+    "description": "Buttons overlap text in Safari browser.",
+    "customer": "Riya Khan",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-07"
+  },
+  {
+    "id": 13,
+    "title": "OTP Verification Delay",
+    "description": "OTP takes more than 1 minute to arrive.",
+    "customer": "Rakib Uddin",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-08"
+  },
+  {
+    "id": 14,
+    "title": "Subscription Renewal Failed",
+    "description": "Automatic renewal does not process successfully.",
+    "customer": "Sadika Islam",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-08"
+  },
+  {
+    "id": 15,
+    "title": "Security Warning Message",
+    "description": "Users see SSL warning in older browsers.",
+    "customer": "Nazmul Hasan",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-09"
+  }
+]

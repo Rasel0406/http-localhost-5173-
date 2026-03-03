@@ -1,17 +1,9 @@
-import { useState } from 'react'
-import './App.css'
-import Navbar from './components/Navbar';
-import Banner from './components/Banner';
+import React from 'react';
+import { FaPlus } from "react-icons/fa";
 
-
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <Navbar>  </Navbar>
-      <Banner></Banner>
-      {/* <div className="navbar bg-base-100 shadow-sm ">
+const Navbar = () => {
+    return (
+        <div className="navbar bg-base-100 shadow-sm ">
         <div className=" flex container mx-auto px-4">
           <div className="navbar-start">
           <div className="dropdown">
@@ -39,7 +31,7 @@ function App() {
             <li><a>Contact</a></li>
           </ul>
            <div>
-       <button className="flex items-center gap-2 bg-gradient-to-r from-purple-600 to-indigo-600 text-white px-4 py-2 rounded-lg text-sm font-medium shadow-md hover:shadow-lg hover:scale-105 transition-all duration-200">
+       <button className="flex items-center ml-2 gap-4 bg-gradient-to-r from-purple-600 to-indigo-600 text-white px-4 py-2 rounded-lg text-sm font-medium shadow-md hover:shadow-lg hover:scale-105 transition-all duration-200">
   <FaPlus className="text-xs" />
   New Ticket
 </button>
@@ -48,9 +40,8 @@ function App() {
 
         </div>
        
-      </div> */}
-    </>
-  )
-}
+      </div>
+    );
+};
 
-export default App
+export default Navbar;
