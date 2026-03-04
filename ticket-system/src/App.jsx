@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Banner from './components/Banner';
 import MainSection from './components/main_section';
 import { Suspense } from 'react';
+import Footer from './components/footer';
 
 // fetch data
 const fetchData = async () => {
@@ -22,7 +23,7 @@ const fetchDataResult = fetchData();
     <Suspense>
         <MainSection fetchDataResult={fetchDataResult}></MainSection>
     </Suspense>
-    
+    <Footer></Footer>
     </>
   )
 }

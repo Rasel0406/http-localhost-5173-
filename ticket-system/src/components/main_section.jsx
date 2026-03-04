@@ -33,8 +33,8 @@ const Main_section = ({ fetchDataResult }) => {
                                         <div className="font-semibold">
                                             <span className="text-gray-600 ">#100{ticket.id}</span>
                                             <span className={`ml-6 ${ticket.priority === 'High' ? 'text-red-600' :
-                                                    ticket.priority === 'Medium' ? 'text-orange-500' :
-                                                        'text-blue-500'
+                                                    ticket.priority === 'Medium' ? 'text-[#FEBB0C]' :
+                                                        'text-[#02A53B]'
                                                 }`}>
                                                 {ticket.priority.toUpperCase()} PRIORITY
                                             </span>
