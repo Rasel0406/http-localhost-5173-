@@ -8,8 +8,8 @@ import Footer from './components/footer';
 
 // fetch data
 const fetchData = async () => {
-  const response =await fetch('../public/ticket.json');
-  const data = response.json();
+  const response = await fetch('/ticket.json');
+  const data = await response.json();
   return data;
 }
 
