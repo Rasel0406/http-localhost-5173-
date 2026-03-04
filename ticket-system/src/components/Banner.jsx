@@ -2,7 +2,7 @@ import React from "react";
 import bannerImage1 from "../assets/Group_1.png";
 import bannerImage2 from "../assets/Group_2.png";
 
-function Banner({ inProgressCount, resolvedCount }) {
+function Banner({ inProgressCount = 0, resolvedCount = 0 }) {
 const purpleBg = {
   backgroundImage: ` url(${bannerImage2}), url(${bannerImage1}), linear-gradient(to bottom right, rgba(168, 85, 247, 0.85), rgba(126, 34, 206, 0.95))`,
   backgroundPosition: 'left top, right top, center',
@@ -30,7 +30,7 @@ const greenBg = {
           </h3>
 
           <p className="text-6xl font-bold mt-4">
-            {inProgressCount} 0
+            {inProgressCount}
           </p>
         </div>
 
@@ -43,7 +43,7 @@ const greenBg = {
           </h3>
 
           <p className="text-6xl font-bold mt-4">
-            {resolvedCount}0
+            {resolvedCount}
           </p>
         </div>
 

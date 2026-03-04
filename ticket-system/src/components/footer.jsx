@@ -51,13 +51,13 @@ const footer = () => {
                             LINKEDIN
                         </a>
                         <a className="link link-hover my-2 flex items-center gap-2">
-                            <span className="bg-white text-gray-600 p-1 rounded-full flex items-center justify-center w-6 h-6">
+                            <span className="bg-white text-gray-600 p-1 rounded-full flex items-center justify-center w-8 h-8">
                                 <FaInstagram />
                             </span>
                             INSTAGRAM
                         </a>
                         <a className="link link-hover my-2 flex items-center gap-2">
-                            <span className="bg-white text-gray-600 p-1 rounded-full flex items-center justify-center w-6 h-6">
+                            <span className="bg-white text-gray-600 p-1 rounded-full flex items-center justify-center w-8 h-8">
                                 <FaGithub />
                             </span>
                             GITHUB
